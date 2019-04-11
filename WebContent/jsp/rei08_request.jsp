@@ -1,6 +1,6 @@
 
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ page import =java.net.URLEncoder" %>
+<%@ page import ="java.net.URLEncoder" %>
 
 <?xml version="1.0" encoding="UTF-8" ?>
 
@@ -22,9 +22,9 @@ String mvc =URLEncoder.encode("MVCパターン","UTF-8"); %>
 <title>Insert title here</title>
 </head>
 <body>
-<a href="../Rei08Controller?text01=<%= jsp %>">JSP</a><br>
-<a href="../Rei08Controller?text01=<%= servlet %>">サーブレット</a><br>
-<a href="../Rei08Controller?text01=<%= mvc %>">MVCパターン</a><br>
+<a href="../Rei08Contoroller?text01=<%= jsp %>">JSP</a>
+<a href="../Rei08Contoroller?text01=<%= servlet %>">サーブレット</a>
+<a href="../Rei08Contoroller?text01=<%= mvc %>">MVCパターン</a>
 
 </body>
 </html>

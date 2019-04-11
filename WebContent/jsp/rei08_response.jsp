@@ -10,14 +10,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>re09_response.jsp</title>
+<title>re08_response.jsp</title>
 </head>
 <body>
 <jsp:useBean id="rei08bean" scope="request" type="rei08.Rei08Bean"/>
 受け取ったデータ：
 <%--${rei08bean.text01} --%>
 
-<jsp:getProperty name="rei08bean" property="tetx01" />
+<jsp:getProperty name="rei08bean" property="text01"/>
 
 
 </body>
